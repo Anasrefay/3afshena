@@ -1,0 +1,55 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.navbar-brand{
+    font-size: 35px;
+    margin-right: 160px;
+}
+
+.navbar-brand{
+    padding-left: 40px;
+}
+
+.row{
+    margin: 0px;
+}
+
+.col-6{ 
+    padding-left: 70px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.col-3{
+    padding-left: 70px;
+    padding-bottom: 50px;
+}
+
+.col-3 img:hover,.col-6 img:hover{
+    cursor: pointer;
+}
+
+.col img:hover{
+    cursor: pointer;
+}
+
+.badge:hover{
+    cursor: pointer;
+    transform: translateY(-8%);
+    transition: 0.12s ease-in-out;
+}
+
+.nav-item:active{
+    scale: 0.95;
+}
+
+.carousel-control-next{
+    padding-left: 150px;
+}
+
+.carousel-control-prev{
+    padding-right: 150px;
+}
+
